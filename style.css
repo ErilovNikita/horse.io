@@ -40,6 +40,9 @@ body {
 #content {
   padding: 25px;
 }
+#content p b::after {
+  content:" --";
+}
 #block {
   z-index: 2;
   border-radius: 2px;
