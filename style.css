@@ -1,0 +1,132 @@
+html {
+  font-family: roboto;
+}
+#header p {
+  margin-left: 10%;
+  color: white;
+  font-size: 16pt;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e2e1e0;
+}
+#header {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  background-color: #FFC107;
+  width: 100%;
+  height: 55px;
+}
+#header p {
+    text-align: left;
+}
+#img img {
+  position: absolute;
+  top: 2px;
+  left: 10%;
+  width: 50px;
+  float: left;
+}
+#menu {
+  margin-top: 0;
+  position: absolute;
+  right: 6%;
+}
+#content {
+  padding: 25px;
+}
+#block {
+  z-index: 2;
+  border-radius: 2px;
+  color: #424242;
+  text-align: left;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 15px;
+  margin-top: 75px;
+  padding: 0;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#block p {
+    text-align: left;
+}
+#wapper {
+  height: auto;
+}
+#back-cover {
+  margin: 0;
+  text-align: center;
+  height: 500px;
+  background-image: linear-gradient(to top, white 0%, transparent 100%), url(background.jpeg);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+#back-cover img {
+  margin-top: 100px;
+  width: 600px;
+}
+#footer a, p {
+  color: #424242;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+.leftimg {
+  float: left;
+}
+.rightimg {
+  float: right;
+}
+ul {
+  text-align: right;
+  display: inline;
+  margin-right: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+}
+ul li {
+  color: white;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 18px 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #FFA000;
+  color: #fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -transition: opacity 0.2s;
+}
+ul li ul li {
+  background: #555;
+  display: block;
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #FFA000; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
