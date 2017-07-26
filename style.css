@@ -72,6 +72,13 @@ body {
   margin-top: 100px;
   width: 600px;
 }
+#back-cover p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 26pt;
+  text-align: center;
+  margin-top: 5%;
+}
 #footer a, p {
   color: #424242;
   text-decoration: none;
