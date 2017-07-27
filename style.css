@@ -85,6 +85,7 @@ body {
 #repost {
   margin-top: -20px;
   height: 60px;
+  width: 100%;
 }
 #footer a, p {
   color: #424242;
