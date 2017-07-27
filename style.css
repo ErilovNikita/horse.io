@@ -201,7 +201,7 @@ ul li:hover ul a {
     display: none;
   }
   .hidepc {
-    display: list-item;
+    display: table-cell;
   }
   ul li {
     padding: 16px 20px;
