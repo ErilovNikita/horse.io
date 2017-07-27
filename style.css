@@ -82,6 +82,10 @@ body {
   text-align: center;
   margin-top: 5%;
 }
+#repost {
+  margin-top: -20px;
+  height: 60px;
+}
 #footer a, p {
   color: #424242;
   text-decoration: none;
